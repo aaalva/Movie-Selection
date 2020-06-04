@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_gravity="center"
+        android:textSize="36sp"
+        android:text="The chosen movie is...">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/movie_chosen"
+        android:layout_marginTop="72dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="36sp"
+        android:textColor=""
+        android:text="">
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/show_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_gravity="center"
+        android:textSize="12dp"
+        android:onClick="movieChosen"
+        android:text="Show Choice">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/choose_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_gravity="center"
+        android:textSize="24dp"
+        android:onClick="chooseAgain"
+        android:text="Choose Again">
+        
+    </Button>
+
+
+</LinearLayout>
